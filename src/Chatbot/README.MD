@@ -1,8 +1,8 @@
-#Chatbot
+# Chatbot
 
 Jarvis is an event chatbot designed to find events around New York City based on a specific interest.
 
-##Notes
+## Notes
 
 Jarvis uses jsoup, a web scraping library built for Java. 
 

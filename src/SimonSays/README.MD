@@ -1,7 +1,7 @@
-#Simon Says
+# Simon Says
 Simon Says implemented with a UI, in Java!
 
-##Notes
+## Notes
 
 This was my first game that included a user interface.
 

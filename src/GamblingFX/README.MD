@@ -1,7 +1,7 @@
-#Gambling FX
+# Gambling FX
 A Virtual Gambling Application called Jesus Casino!
 
-##Notes
+## Notes
 
 This was my final group JavaFX project.
 

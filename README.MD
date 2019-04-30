@@ -1,8 +1,8 @@
-#High School Java Projects
+# High School Java Projects
 
 This repository contains all of my Java projects while studying at Brooklyn Technical High School.
 
-##Notes
+## Notes
 All applications contain original comments and no major changes, if some are required to be changed they will have this section.
 
 ```
