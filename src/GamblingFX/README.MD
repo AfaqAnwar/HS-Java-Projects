@@ -5,7 +5,7 @@ A Virtual Gambling Application called Jesus Casino!
 
 This was my final group JavaFX project.
 
-This was a 8 man project, each game was constructed by a sub team of two people.
+This was a 8 man project, each game was constructed by a sub team of 2 people.
 
 Contributors
 ```
