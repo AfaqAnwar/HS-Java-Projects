@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@../CSS/Dashboard.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GamblingFX.Controllers.DashboardController">
+   <children>
+      <JFXTabPane fx:id="tabPane" prefHeight="322.0" prefWidth="688.0" tabClosingPolicy="UNAVAILABLE" />
+      <JFXButton fx:id="quitButton" mnemonicParsing="false" onAction="#handleQuitButton" prefHeight="25.0" prefWidth="46.0" text="EXIT" translateX="375.0" translateY="-280.0" />
+   </children>
+</StackPane>

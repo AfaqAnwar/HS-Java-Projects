@@ -1,0 +1,6 @@
+Sorry I didn't get your location, which borough are you in?
+Which borough are you in?
+Until I get a new TensorFlow brain, you're going to have to tell me where you live so I can help.
+NYC IS HUGE! I can't help you without you telling me where you are. Which borough are you in?
+Hey I know it's a bit much, but if you could tell me which borough you're in that would be great.
+I'm not that smart, please let me know which borough you are in if you want me to help you. 

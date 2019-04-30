@@ -1,0 +1,37 @@
+* {
+    -fx-font-family: "Quicksand";
+}
+
+.root {
+    -fx-background-color: #ffffff;
+}
+
+.jfx-dialog {
+    -fx-background-color: rgba(0, 0, 0, 0);
+}
+
+.jfx-dialog-overlay-pane > StackPane{
+    -fx-effect: null;
+}
+
+.label {
+    -fx-font-family: "Quicksand";
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-text-fill: #eac300;
+    -fx-font-size: 12px;
+}
+
+.header_label {
+    -fx-font-family: "Staatliches";
+    -fx-text-fill: #eac300;
+    -fx-font-size: 42px;
+}
+
+.jfx-button {
+    -fx-background-color: #ffbb00 to #fcb211;
+    -fx-text-fill: WHITE;
+}
+
+.balance_text {
+    -fx-font-size: 18px;
+}

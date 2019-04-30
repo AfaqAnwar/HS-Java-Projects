@@ -1,0 +1,27 @@
+.jfx-tab-pane {
+    -fx-padding: 1px;
+    -fx-background-color: white, -fx-control-inner-background;
+    -fx-background-insets: 0, 0;
+}
+
+.jfx-tab-pane .headers-region {
+    -fx-background-color: #ffbb00 to #fcb211;
+}
+
+.jfx-tab-pane .tab-header-background {
+    -fx-background-color: #ffbb00 to #fcb211;
+}
+
+.jfx-tab-pane .tab-header-area .jfx-rippler {
+    -jfx-rippler-fill: #fff196;
+}
+
+.jfx-tab-pane .tab-header-area .tab-selected-line {
+    -fx-background-color: #ffffff;
+}
+
+.jfx-button {
+    -fx-font-family: "Staalitches";
+    -fx-background-color: #ffbb00 to #fcb211;
+    -fx-text-fill: WHITE;
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Afaq Anwar -->
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SimonSays.Controllers.GameController">
+   <children>
+      <AnchorPane fx:id="anchorPane" layoutX="6.0" layoutY="6.0" prefHeight="1.0" prefWidth="1.0" />
+      <Circle layoutX="251.0" layoutY="250.0" radius="180.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="300.0" layoutX="243.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="15.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="300.0" layoutX="243.0" layoutY="100.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="15.0" />
+      <Arc fx:id="redArc" fill="#7d0000" layoutX="258.0" layoutY="243.0" length="90.0" onMouseClicked="#selectRed" radiusX="150.0" radiusY="150.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" type="ROUND" />
+      <Arc fx:id="greenArc" fill="#007d00" layoutX="244.0" layoutY="243.0" length="90.0" onMouseClicked="#selectGreen" radiusX="150.0" radiusY="150.0" startAngle="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" type="ROUND" />
+      <Arc fx:id="blueArc" fill="#00007d" layoutX="244.0" layoutY="257.0" length="90.0" onMouseClicked="#selectBlue" radiusX="150.0" radiusY="150.0" startAngle="180.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" type="ROUND" />
+      <Arc fx:id="yellowArc" fill="#7d7d00" layoutX="258.0" layoutY="257.0" length="90.0" onMouseClicked="#selectYellow" radiusX="150.0" radiusY="150.0" startAngle="270.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" type="ROUND" />
+      <Label alignment="CENTER" layoutX="176.0" layoutY="439.0" text="SCORE :">
+         <font>
+            <Font name="Ebrima Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoreText" alignment="CENTER" layoutX="308.0" layoutY="439.0" text="0">
+         <font>
+            <Font name="Ebrima Bold" size="32.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

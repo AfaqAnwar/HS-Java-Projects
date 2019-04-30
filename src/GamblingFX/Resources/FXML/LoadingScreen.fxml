@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../CSS/Loading.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GamblingFX.Controllers.LoadingScreenController">
+   <children>
+      <ImageView fx:id="logoView" fitHeight="300.0" fitWidth="300.0" layoutX="150.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <JFXSpinner fx:id="loadingSpinner" layoutX="275.0" layoutY="327.0" progress="0.0" styleClass="material_spinner" />
+   </children>
+</Pane>

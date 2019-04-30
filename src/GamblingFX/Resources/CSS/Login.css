@@ -1,0 +1,35 @@
+* {
+    -fx-font-family: "Quicksand";
+}
+
+.root {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20px;
+}
+
+.jfx-dialog {
+    -fx-background-color: rgba(0, 0, 0, 0);
+}
+
+.jfx-dialog-overlay-pane > StackPane{
+    -fx-effect: null;
+}
+
+.label {
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-text-fill: #eac300;
+    -fx-font-size: 12px;
+}
+
+.jfx-text-field, .jfx-password-field {
+    -jfx-focus-color: #fff196;
+    -fx-prompt-text-fill: #eac300;
+}
+
+.jfx-button {
+    -fx-background-color: #ffbb00 to #fcb211;
+    -fx-text-fill: WHITE;
+    -jfx-button-type: RAISED;
+}
+
+

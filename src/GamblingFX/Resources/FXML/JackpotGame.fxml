@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: white;" stylesheets="@../CSS/JackpotGame.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GamblingFX.Controllers.JackpotController">
+   <children>
+      <Line endX="600.0" layoutX="101.0" layoutY="73.0" startX="-100.0" />
+      <Line endX="415.0" layoutX="93.0" layoutY="250.0" rotate="90.0" startX="-100.0" />
+      <Label layoutX="8.0" layoutY="30.0" prefHeight="43.0" prefWidth="118.0" text="Total Bet: ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalBet" layoutX="123.0" layoutY="30.0" prefHeight="43.0" prefWidth="118.0" text="0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="yourName" layoutX="5.0" layoutY="83.0" text="YourName">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="4.0" layoutY="110.0" text="Balance:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="balanceNum" layoutX="76.0" layoutY="111.0" text="balanceNum">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="5.0" layoutY="137.0" text="Your Current Bet: ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="currentBet" layoutX="121.0" layoutY="166.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableView" editable="true" layoutX="251.0" prefHeight="500.0" prefWidth="450.0">
+        <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="150.0" text="Player Name" />
+          <TableColumn fx:id="betColumn" prefWidth="150.0" text="Bet Amount" />
+            <TableColumn fx:id="percentColumn" prefWidth="150.0" text="Percentage to Win" />
+        </columns>
+      </TableView>
+      <Text layoutX="8.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bet:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="field" layoutX="5.0" layoutY="221.0" prefHeight="35.0" prefWidth="108.0" />
+      <Button fx:id="submitButton" layoutX="121.0" layoutY="226.0" mnemonicParsing="false" onAction="#handler" text="Submit" />
+      <Text fill="RED" layoutX="4.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time Left: ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Label fx:id="timeNum" layoutX="126.0" layoutY="309.0" text="Click start" textFill="#ff2b2b">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Text layoutX="25.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Percentage of Winning">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Label fx:id="winPercent" layoutX="105.0" layoutY="382.0" text="0%" textFill="#00ff2f">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="startButton" layoutX="99.0" layoutY="433.0" mnemonicParsing="false" onAction="#start" prefHeight="27.0" prefWidth="54.0" text="Start" />
+      <Label fx:id="prompt" layoutX="5.0" layoutY="264.0" prefHeight="27.0" prefWidth="202.0" text="Insert a whole number">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <StackPane fx:id="stackPane" layoutX="315.0" layoutY="329.0" prefHeight="161.0" prefWidth="325.0" />
+   </children>
+</Pane>

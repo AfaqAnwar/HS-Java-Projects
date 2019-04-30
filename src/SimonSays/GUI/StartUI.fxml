@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Afaq Anwar -->
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SimonSays.Controllers.StartController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="500.0" prefWidth="500.0">
+         <children>
+            <Label alignment="CENTER" layoutX="155.0" layoutY="14.0" text="Simon Says" textAlignment="CENTER">
+               <font>
+                  <Font name="Verdana" size="32.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="195.0" layoutY="54.0" text="by: Afaq Anwar" textAlignment="CENTER">
+               <font>
+                  <Font name="Verdana" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="helpButton" alignment="CENTER" layoutX="14.0" layoutY="461.0" mnemonicParsing="false" onAction="#handleButtons" style="-fx-background-radius: 200; -fx-background-color: white; -fx-border-color: black; -fx-border-radius: 200;" text="HELP" textAlignment="CENTER" textFill="#2c2c2c">
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font>
+            </Button>
+            <TextField fx:id="usernameField" alignment="CENTER" layoutX="127.0" layoutY="149.0" prefHeight="30.0" prefWidth="245.0" promptText="Enter Username...">
+               <font>
+                  <Font name="Tahoma" size="12.0" />
+               </font>
+            </TextField>
+            <Button fx:id="startButton" alignment="CENTER" layoutX="161.0" layoutY="207.0" mnemonicParsing="false" onAction="#handleButtons" prefHeight="86.0" prefWidth="178.0" style="-fx-background-color: black; -fx-background-radius: 200;" text="START!" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</GridPane>

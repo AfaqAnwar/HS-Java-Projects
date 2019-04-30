@@ -1,0 +1,8 @@
+.root {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20px;
+}
+
+.material_spinner .arc {
+    -fx-stroke: #ffbb00 to #fcb211;
+}
